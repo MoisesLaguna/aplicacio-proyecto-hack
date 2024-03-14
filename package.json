@@ -1,0 +1,16 @@
+{
+  "name": "aplication-git-prueba",
+  "version": "1.0.0",
+  "description": "Aprendiendo git y github con tu amigo y docente dígital Ramón Mircha",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
