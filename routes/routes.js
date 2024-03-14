@@ -1,9 +1,8 @@
 import { Router } from "express";
+import { getUsers } from "../controlller/controllers.js";
 
 const router = Router();
 
-router.get("/", (req, res) => {
-    res.json({ message: "Hello, world!" });
-});
+router.get("/users", getUsers);
 
 export default router;
