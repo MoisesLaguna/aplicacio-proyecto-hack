@@ -9,4 +9,4 @@ CREATE TABLE users (
   password BLOB NOT NULL
 );
 
-INSERT INTO users (username, email, password) VALUES ('admin', 'admin@gmail.com' AES_ENCRYPT('admin123', "admin"));
+INSERT INTO users (username, email, password) VALUES ('admin', 'admin@gmail.com', AES_ENCRYPT('admin123', "admin"));
